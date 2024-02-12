@@ -9,7 +9,7 @@ btnSearch.addEventListener('click', ()=>{
 })
 
 const buscarCiudad =  async (ciudad) => {
-    const url = `https://ai-weather-by-meteosource.p.rapidapi.com/find_places_prefix?text=${ciudad}&language=es`;
+    const url = `https://ai-weather-by-meteosource.p.rapidapi.com/find_places?text=${ciudad}&language=es`;
 const options = {
 	method: 'GET',
 	headers: {
